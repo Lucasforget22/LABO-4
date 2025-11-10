@@ -1,0 +1,63 @@
+.groupe {
+  width: 1100px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: left;
+}
+
+.banniere {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.banniere img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banniere h1 {
+  font-size: 37px;
+  text-align: left;
+  padding-left: 0px;
+}
+
+.classement {
+  width: 1100px;
+  margin: 20px auto;
+  border: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 80px 1fr 2fr 80px; /* Rang | Drapeau | Équipe | Résultat */
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.header {
+  background: red;
+  color: white;
+  font-weight: bold;
+}
+
+.main {
+  width: 1100px;
+  margin: auto;
+  border: 1px solid black;
+
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+
+.flag {
+  width: 40px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
